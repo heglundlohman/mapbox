@@ -47,6 +47,8 @@
       .setHTML('<h3>' + feature.properties.name + '</h3>')
       .addTo(map);
       });
+      // disable map zoom when using scroll
+      map.scrollZoom.disable();
     </script>
   </body>
 </html>
