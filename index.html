@@ -47,6 +47,8 @@
       .setHTML('<h3>' + feature.properties.name + '</h3>')
       .addTo(map);
       });
+      // Add zoom and rotation controls to the map.
+      map.addControl(new mapboxgl.NavigationControl());
       // disable map zoom when using scroll
       map.scrollZoom.disable();
     </script>
