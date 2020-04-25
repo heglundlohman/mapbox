@@ -34,7 +34,7 @@
     // code from the next step will go here
     map.on('click', function(e) {
       var features = map.queryRenderedFeatures(e.point, {
-        layers: ['lit-wi-campuses-2'] // replace this with the name of the layer
+        layers: ['lit-wi-campuses'] // replace this with the name of the layer
       });
 
       if (!features.length) {
